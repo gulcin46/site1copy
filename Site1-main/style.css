@@ -1,0 +1,266 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 40px 0px 50px 0px;
+}
+
+header .menu {
+  position: fixed;
+  width: 1312px;
+}
+header .menu .imgbox {
+  margin: 29px 0px 0px 0px;
+  width: 187px;
+  height: 100px;
+}
+header .menu nav {
+  margin-bottom: 32px;
+}
+header .menu nav a {
+  margin: 0px 27px 0px 15px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#welcome {
+  background-image: url("../../../assests/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+#welcome .box .textbox h1 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 39px;
+  position: relative;
+  top: 226px;
+  left: 759px;
+}
+#welcome .box .textbox2 h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 95px;
+  position: relative;
+  top: 266px;
+  left: 545px;
+}
+#welcome .box .btn {
+  border: 1px solid #ffc800;
+  width: 222px;
+  height: 68px;
+  position: relative;
+  top: 320px;
+  left: 843px;
+  background-color: #ffc800;
+  transition: 2s;
+}
+#welcome .box .btn h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 12px 0px 0px 0px;
+  color: white;
+}
+#welcome .box .btn:hover {
+  cursor: pointer;
+  background-color: #d9aa00;
+}
+
+#services {
+  padding: 50px 0px 0px 0px;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+#services h2 {
+  font-size: 22px;
+}
+#services .box {
+  position: relative;
+  left: 109px;
+}
+#services .box .imgbox {
+  margin: 53px 2px 14px 0px;
+  background-color: #ffc800;
+  border-radius: 87px;
+  width: 135px;
+  height: 133px;
+}
+#services .box .imgbox i {
+  margin: 31px 0 0 18px;
+  font-size: 80px;
+  color: #ffffff;
+}
+#services .box .textbox {
+  width: 361px;
+  height: 137px;
+}
+#services .box .textbox h1 {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 21px 0px 13px 1px;
+}
+#services .box .textbox h2 {
+  position: relative;
+  right: 120px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+  width: 1819px;
+  height: 1188px;
+}
+#portfolio h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 63px 17px 4px 0px;
+}
+#portfolio h2 {
+  font-size: 19px;
+}
+#portfolio .box {
+  width: 408px;
+  height: 414px;
+  background-color: #ffffff;
+  margin: 28px 0px 0px 0px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0px 10px 0px;
+}
+#portfolio .box .textbox h3 {
+  font-size: 20px;
+  color: #8b8686;
+}
+
+#about {
+  width: 1828px;
+}
+#about h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h3 {
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+}
+#about .textbox, #about .textbox2 {
+  width: 420px;
+  height: 162px;
+  line-height: 30px;
+}
+#about .textbox h1, #about .textbox h2, #about .textbox2 h1, #about .textbox2 h2 {
+  font-size: 29px;
+  font-weight: 700;
+}
+#about .textbox h3, #about .textbox2 h3 {
+  font-size: 20px;
+  text-align: center;
+}
+#about .textbox {
+  position: relative;
+  left: 146px;
+  top: 58px;
+}
+#about .box, #about .box2 {
+  width: 158px;
+  height: 162px;
+  border-radius: 80px;
+  background-color: #c1baba;
+  margin-bottom: 186px;
+}
+#about .box .imgbox, #about .box2 .imgbox {
+  width: 146px;
+  height: 151px;
+  border-radius: 99px;
+  position: relative;
+  top: 6px;
+  left: 5px;
+}
+#about .box {
+  position: relative;
+  right: 85px;
+  top: 90px;
+}
+#about .box2 {
+  position: relative;
+  left: 560px;
+  top: 90px;
+}
+#about .box2 .end {
+  background-color: #ffc800;
+}
+#about .box2 .end h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 33px;
+  color: #ffffff;
+}
+#about .textbox2 {
+  position: relative;
+  left: 747px;
+  top: 80px;
+}
+
+#team {
+  width: 1930px;
+  height: 683px;
+  background-color: #c6b5b5;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 55px;
+}
+#team h3 {
+  font-size: 22px;
+}
+#team .box {
+  width: 234px;
+  height: 241px;
+  background-color: #1b1212;
+  border-radius: 156px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#team .box .imgbox {
+  border-radius: 171px;
+  width: 214px;
+  height: 221px;
+  margin: 12px 0px 0px 0px;
+}
+
+#logo .imgbox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  background-image: url("../../../assests/map-image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 900px;
+}/*# sourceMappingURL=style.css.map */
